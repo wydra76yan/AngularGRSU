@@ -10,9 +10,9 @@ const routes: Routes = [
   { path: '', redirectTo: '/program', pathMatch: 'full' },
   { path: 'program', component: ProgramComponent },
   { path: 'document', component: DocumentComponent },
-  { path: 'reviesw', component: ReviewsComponent }
+  { path: 'reviews', component: ReviewsComponent }
 ];
- 
+
 @NgModule({
   imports: [ RouterModule.forRoot(routes) ],
   exports: [ RouterModule ]
