@@ -1,6 +1,10 @@
 <div id = "program"  class="container">
   <div class="tool-bar">
-
+    <ul>
+      <li *ngFor = "let prog of programs">
+        <span class = "item program">{{prog.name}}</span>
+      </li>
+    </ul>
   </div>
   <div class="display">
     <h1>
