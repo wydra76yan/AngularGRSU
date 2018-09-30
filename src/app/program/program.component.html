@@ -1,3 +1,12 @@
-<p>
-  program works!
-</p>
+<h3>Program Title</h3>
+<div class="program_list">
+  <li *ngFor="let program of programs" (click)="onSelect(program)">
+    <span class="badge">{{program.name}}</span>
+  </li>
+</div>
+<div *ngIf="selectedProgram">
+
+  <h2>{{selectedProgram.name | uppercase}} Details</h2>
+  <div>{{selectedProgram.description}}</div>
+
+</div>
