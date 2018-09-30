@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+.content{
+  border: solid;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.right-side_info{
+  border: 1px solid green;
+  width: 80%;
+
+}
+
+.left-side_info{
+  width: 20%;
+  border: 1px solid red;
+}
+
+.item-list{
+  padding: 10px;
+}

@@ -1,7 +1,12 @@
-<h3>Program Title</h3>
-<div class="program_list">
-  <li *ngFor="let program of programs" (click)="onSelect(program)">
-    <span class="badge">{{program.name}}</span>
-  </li>
+<div class="content">
+  <div class="left-side_info">
+    <h3>Program Title</h3>
+    <li class="item-list"
+        *ngFor="let program of programs" (click)="onSelect(program)">
+      <span class="badge">{{program.name}}</span>
+    </li>
+  </div>
+  <div class="right-side_info">
+    <app-program-detail [program]="selectedProgram"></app-program-detail>
+  </div>
 </div>
-<app-program-detail [program]="selectedProgram"></app-program-detail>
