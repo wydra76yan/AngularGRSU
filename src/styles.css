@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    height: 80vh;
+    display: flex;
+}
+
+.tool-bar{
+    width: 20%;
+    border: 1px solid red;
+    height: 100%;
+}
+
+.display{
+    border: 1px solid green;
+    width: 80%;
+    height: 100%;
+}
