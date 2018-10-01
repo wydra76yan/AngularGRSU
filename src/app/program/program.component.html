@@ -1,10 +1,12 @@
 <div class="content">
   <div class="left-side_info">
-    <h3>Program Title</h3>
-    <li class="item-list"
+    <ul class="collection with-header">
+      <li class="collection-header"><h4>Program</h4></li>
+      <li class="collection-item"
         *ngFor="let program of programs" (click)="onSelect(program)">
-      <span class="badge">{{program.name}}</span>
-    </li>
+        <span>{{program.name}}</span>
+      </li>
+    </ul>
   </div>
   <div class="right-side_info">
     <app-program-detail [program]="selectedProgram"></app-program-detail>
