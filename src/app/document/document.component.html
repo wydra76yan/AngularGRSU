@@ -1,3 +1,12 @@
-<p>
-  document works!
-</p>
+<div class="content">
+  <div class="left-side_info">
+    <h3>Program Title</h3>
+    <li class="item-list"
+        *ngFor="let document of documents" (click)="onSelect(document)">
+      <span class="badge">{{document.name}}</span>
+    </li>
+  </div>
+  <div class="right-side_info">
+    <app-document-details [document]="selectedDocument" ></app-document-details>
+  </div>
+</div>

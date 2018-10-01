@@ -9,6 +9,7 @@ import { DocumentComponent } from './document/document.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ProgramDetailComponent } from './program-detail/program-detail.component';
+import { DocumentDetailsComponent } from './document-details/document-details.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProgramDetailComponent } from './program-detail/program-detail.componen
     ProgramComponent,
     DocumentComponent,
     ReviewsComponent,
-    ProgramDetailComponent
+    ProgramDetailComponent,
+    DocumentDetailsComponent
   ],
   imports: [
     BrowserModule,
