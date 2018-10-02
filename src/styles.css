@@ -1,19 +1,16 @@
-.content{
-  border: solid;
-  min-height: 80vh;
-  display: flex;
-  flex-direction: row;
+
+
+.body{
+  background-color: #6ecaff;
 }
 
 .right-side_info{
-  border: 1px solid green;
   width: 80%;
 
 }
 
 .left-side_info{
   width: 20%;
-  border: 1px solid red;
 }
 
 .item-list{

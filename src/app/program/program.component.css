@@ -1,0 +1,23 @@
+.collection-item{
+  background-color: #ddd;
+  height: inherit;
+  border: none;
+  transition: 0.3s;
+}
+.collection-item:hover {
+  background-color: #ee6e73;
+  color: white;
+}
+
+.collection{
+
+}
+
+.left-side_info{
+  height: 80vh;
+}
+.content{
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+}

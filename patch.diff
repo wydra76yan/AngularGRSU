@@ -1,0 +1,90 @@
+From 873a9a562ede8384b95a8a78ed3ec0d2cb56ecb9 Mon Sep 17 00:00:00 2001
+From: wydra76yan <yan@vydra.com>
+Date: Sun, 30 Sep 2018 19:38:51 +0300
+Subject: [PATCH] New Working Copy
+
+---
+ src/app/app.component.css                          |  1 +
+ .../program-detail/program-detail.component.html   |  2 +-
+ src/app/program/program.component.css              |  1 +
+ src/app/program/program.component.html             | 17 +++++++++++------
+ src/styles.css                                     | 22 +++++++++++++++++++++-
+ 5 files changed, 35 insertions(+), 8 deletions(-)
+
+diff --git a/src/app/app.component.css b/src/app/app.component.css
+index e69de29..8b13789 100644
+--- a/src/app/app.component.css
++++ b/src/app/app.component.css
+@@ -0,0 +1 @@
++
+diff --git a/src/app/program-detail/program-detail.component.html b/src/app/program-detail/program-detail.component.html
+index 348f354..90ea9db 100644
+--- a/src/app/program-detail/program-detail.component.html
++++ b/src/app/program-detail/program-detail.component.html
+@@ -1,6 +1,6 @@
+ <div *ngIf="program">
+ 
+-  <h2>{{program.name | uppercase}} Details</h2>
++  <h2>{{program.name | uppercase}}</h2>
+   <div>{{program.description}}</div>
+ 
+ </div>
+diff --git a/src/app/program/program.component.css b/src/app/program/program.component.css
+index e69de29..8b13789 100644
+--- a/src/app/program/program.component.css
++++ b/src/app/program/program.component.css
+@@ -0,0 +1 @@
++
+diff --git a/src/app/program/program.component.html b/src/app/program/program.component.html
+index 46a4071..8213544 100644
+--- a/src/app/program/program.component.html
++++ b/src/app/program/program.component.html
+@@ -1,7 +1,12 @@
+-<h3>Program Title</h3>
+-<div class="program_list">
+-  <li *ngFor="let program of programs" (click)="onSelect(program)">
+-    <span class="badge">{{program.name}}</span>
+-  </li>
++<div class="content">
++  <div class="left-side_info">
++    <h3>Program Title</h3>
++    <li class="item-list"
++        *ngFor="let program of programs" (click)="onSelect(program)">
++      <span class="badge">{{program.name}}</span>
++    </li>
++  </div>
++  <div class="right-side_info">
++    <app-program-detail [program]="selectedProgram"></app-program-detail>
++  </div>
+ </div>
+-<app-program-detail [program]="selectedProgram"></app-program-detail>
+diff --git a/src/styles.css b/src/styles.css
+index 90d4ee0..0bf4473 100644
+--- a/src/styles.css
++++ b/src/styles.css
+@@ -1 +1,21 @@
+-/* You can add global styles to this file, and also import other style files */
++.content{
++  border: solid;
++  min-height: 80vh;
++  display: flex;
++  flex-direction: row;
++}
++
++.right-side_info{
++  border: 1px solid green;
++  width: 80%;
++
++}
++
++.left-side_info{
++  width: 20%;
++  border: 1px solid red;
++}
++
++.item-list{
++  padding: 10px;
++}
+-- 
+2.14.1.windows.1
+
