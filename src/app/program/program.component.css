@@ -1,7 +1,8 @@
 .collection-item{
   background-color: #ddd;
-  height: inherit;
-  border: none;
+  height: 10vh;
+  display: flex;
+  align-items: center;
   transition: 0.3s;
 }
 .collection-item:hover {
@@ -10,14 +11,15 @@
 }
 
 .collection{
-
+  margin: 3px;
+  border: none;
 }
 
 .left-side_info{
   height: 80vh;
 }
-.content{
-  min-height: 80vh;
-  display: flex;
-  flex-direction: row;
+
+.collection-header{
+  color: #ee6e73;
 }
+

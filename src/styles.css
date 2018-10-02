@@ -1,7 +1,18 @@
+.content{
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+}
 
+.doc_list{
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+}
 
 .body{
   background-color: #6ecaff;
+
 }
 
 .right-side_info{

@@ -1,6 +1,5 @@
 #footer{
     width: 100%;
-    height: 100px;
 }
 
 .footer{
@@ -9,4 +8,8 @@
   align-items: center;
   font-size: 25px;
   color: #6ecaff;
+}
+
+.page-footer{
+  height: 10vh;
 }

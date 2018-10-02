@@ -1,0 +1,14 @@
+.program-title{
+  color: #ee6e73;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.program-desc{
+  margin: 20px;
+}

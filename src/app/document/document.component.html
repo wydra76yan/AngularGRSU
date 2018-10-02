@@ -1,12 +1,20 @@
-<div class="content">
-  <div class="left-side_info">
-    <h3>Program Title</h3>
-    <li class="item-list"
-        *ngFor="let document of documents" (click)="onSelect(document)">
-      <span class="badge">{{document.name}}</span>
-    </li>
+
+<div class="doc_list animated slideInRight">
+  <div class="doc_el z-depth-3" >
+    <i class="material-icons large">assignment_ind</i>
+    <span>Заявка</span>
   </div>
-  <div class="right-side_info">
-    <app-document-details [document]="selectedDocument" ></app-document-details>
+  <div class="doc_el z-depth-3">
+    <i class="material-icons large">assignment</i>
+    <span>Резюме</span>
+  </div>
+  <div class="doc_el z-depth-3">
+    <i class="material-icons large">email</i>
+    <span>Письмо</span>
+  </div>
+  <div class="doc_el z-depth-3">
+    <i class="material-icons large">people</i>
+    <span>Владение языком</span>
   </div>
 </div>
+

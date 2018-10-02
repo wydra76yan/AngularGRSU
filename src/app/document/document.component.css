@@ -1,0 +1,22 @@
+.doc_el{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ee6e73;
+  width: 15%;
+  color: white;
+  font-size: large;
+  margin: 20px;
+  padding: 20px;
+  transition: all .7s ease-in-out;
+}
+.doc_list{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  align-content: center;
+}
+.doc_el:hover{
+  transform: scale(1.1);
+}
