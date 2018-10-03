@@ -1,6 +1,8 @@
-#head{
+.head{
     width: 100%;
+    background-color:rgba(35, 122, 235, 0.644);
 }
+
 nav {
     height: 10vh;
     display: flex;

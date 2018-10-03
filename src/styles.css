@@ -27,3 +27,12 @@
 .item-list{
   padding: 10px;
 }
+
+ 
+.collection-header{
+  color: rgba(35, 122, 235, 0.644);
+}
+
+.collection-item{
+  color: white;
+}

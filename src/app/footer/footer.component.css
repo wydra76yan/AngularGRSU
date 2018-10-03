@@ -1,5 +1,6 @@
 #footer{
     width: 100%;
+    background-color:rgba(35, 122, 235, 0.644);
 }
 
 .footer{
@@ -11,5 +12,6 @@
 }
 
 .page-footer{
+  background-color:rgba(35, 122, 235, 0.644);
   height: 10vh;
 }

@@ -11,3 +11,24 @@
     width: 70%;
     margin: 0px;
 }
+
+.collection-item{
+    background-color: rgba(35, 122, 235, 0.644);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+  }
+  .collection-item:hover {
+    background-color: #ee6e73;
+    color: white;
+  }
+  
+  .collection{
+    margin: 3px;
+    border: none;
+  }
+  
+  .left-side_info{
+    height: 80vh;
+  }
