@@ -1,16 +1,18 @@
 export class ReviewsModel {
   id: number;
   countryName: string;
-  universityList: [{
-    id: number;
-    universityName: string;
-    reviewsList: [{
-      id: number;
-      reviewContent: {
-        description: string;
-        date: string;
-        author: string;
-      };
-    }];
-  }];
+  universityList: university[];
+}
+
+class university {
+  id: number;
+  universityName: string;
+  reviewsList: review[];
+}
+
+class review {
+  id: number;
+  description: string;
+  date: string;
+  author: string;
 }
