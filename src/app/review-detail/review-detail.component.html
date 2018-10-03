@@ -3,6 +3,7 @@
     <ul class="collection with-header">
       <li class="collection-header"><h4>University</h4></li>
       <li class="collection-item"
+        [class.red]="university === selectedUniversity"
         *ngFor="let university of country.universityList"
         (click)="onSelect(university)"
         >
