@@ -1,3 +1,14 @@
-<p>
-  reviews works!
-</p>
+<div class="content animated slideInRight">
+  <div class="left-side_info">
+    <ul class="collection with-header">
+      <li class="collection-header"><h4>Country</h4></li>
+      <li class="collection-item"
+        *ngFor="let country of reviews" (click)="onSelect(country)">
+        <span>{{country.countryName}}</span>
+      </li>
+    </ul>
+  </div>
+  <div class="right-side_info">
+      <app-review-detail   [country]="selectedCountry"></app-review-detail>
+  </div>
+</div>

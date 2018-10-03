@@ -1,0 +1,16 @@
+<div class="flex-container" *ngIf="country">
+  <div class="animated slideInRight university" *ngIf="country">
+    <ul class="collection with-header">
+      <li class="collection-header"><h4>University</h4></li>
+      <li class="collection-item"
+        *ngFor="let university of country.universityList"
+        (click)="onSelect(university)"
+        >
+          <div><span>{{university.universityName}}</span></div>
+      </li>
+    </ul>
+  </div>
+  <div class="review">
+      <app-reviews-review   [university]="selectedUniversity"></app-reviews-review>
+  </div>
+</div>

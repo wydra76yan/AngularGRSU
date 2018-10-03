@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ReviewsModel } from './reviews-model';
+import { ReviewsList } from './reviews-list';
 
 @Component({
   selector: 'app-reviews',
@@ -6,10 +8,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./reviews.component.css']
 })
 export class ReviewsComponent implements OnInit {
+  reviews: ReviewsModel[] = ReviewsList;
+  selectedCountry: ReviewsModel;
 
-  constructor() { }
+  constructor() {
+  }
+  onSelect(country: ReviewsModel): void {
+    this.selectedCountry = country;
+  }
 
   ngOnInit() {
   }
-
 }

@@ -10,6 +10,8 @@ import { ReviewsComponent } from './reviews/reviews.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ProgramDetailComponent } from './program-detail/program-detail.component';
 import { DocumentDetailsComponent } from './document-details/document-details.component';
+import { ReviewDetailComponent } from './review-detail/review-detail.component';
+import { ReviewsReviewComponent } from './reviews-review/reviews-review.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { DocumentDetailsComponent } from './document-details/document-details.co
     DocumentComponent,
     ReviewsComponent,
     ProgramDetailComponent,
-    DocumentDetailsComponent
+    DocumentDetailsComponent,
+    ReviewDetailComponent,
+    ReviewsReviewComponent
   ],
   imports: [
     BrowserModule,

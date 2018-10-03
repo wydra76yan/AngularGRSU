@@ -1,0 +1,13 @@
+.flex-container{
+    display: flex;
+}
+
+.university{
+    width: 30%;
+    margin: 0px;
+}
+
+.review{
+    width: 70%;
+    margin: 0px;
+}
