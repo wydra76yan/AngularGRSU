@@ -17,7 +17,7 @@ export const ReviewsList: ReviewsModel[] = [
           },
           {
             id: 1,
-            description: 'Best not ever',
+            description: 'w Best not ever',
             date: '01/01/1998',
             author: 'Bunny',
           }
@@ -29,13 +29,13 @@ export const ReviewsList: ReviewsModel[] = [
         reviewsList: [
           {
            id: 0,
-           description: 'Norm',
+           description: 'y Norm',
            date: '01/01/1998',
            author: 'Ghy',
           },
           {
             id: 1,
-            description: 'Not Norm',
+            description: 'd Not Norm',
             date: '01/01/1998',
             author: 'Ghy',
            }
@@ -46,13 +46,13 @@ export const ReviewsList: ReviewsModel[] = [
         universityName: 'Факультет Педагогики и Искусств',
         reviewsList: [{
             id: 0,
-            description: 'Best ever',
+            description: 'r Best ever',
             date: '01/01/1998',
             author: 'Bunny',
           },
           {
             id: 1,
-            description: 'Not Best ever',
+            description: 'a Not Best ever',
             date: '01/01/1998',
             author: 'Bunny',
           }
@@ -63,7 +63,7 @@ export const ReviewsList: ReviewsModel[] = [
         universityName: 'Поморский Университет в Слупске',
         reviewsList: [{
             id: 0,
-            description: 'Lol',
+            description: 'p kek cheburek',
             date: '01/01/1998',
             author: 'Ghy',
           }
@@ -80,7 +80,7 @@ export const ReviewsList: ReviewsModel[] = [
         universityName: 'Каунасский Технологический Колледж',
         reviewsList: [{
             id: 0,
-            description: 'Norm',
+            description: 'i Norm',
             date: '01/01/1998',
             author: 'Pani',
           }
@@ -91,7 +91,7 @@ export const ReviewsList: ReviewsModel[] = [
         universityName: 'Университет Миколаса Рёмериса ',
         reviewsList: [{
             id: 0,
-            description: 'Best ever',
+            description: 'd Best ever',
             date: '01/05/1968',
             author: 'Bunny',
           }
@@ -102,7 +102,7 @@ export const ReviewsList: ReviewsModel[] = [
         universityName: 'Университет Клайпеды',
         reviewsList: [{
             id: 0,
-            description: 'Lol',
+            description: 'o Lol',
             date: '01/01/1998',
             author: 'Pani',
           }
@@ -114,7 +114,7 @@ export const ReviewsList: ReviewsModel[] = [
         reviewsList: [
           {
             id: 0,
-            description: 'Norm',
+            description: 'r Norm',
             date: '01/01/1998',
             author: 'Pani',
           }

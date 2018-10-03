@@ -3,11 +3,11 @@
     <li class="collection-header"><h4>Review</h4></li>
     <li class="collection-item"
       *ngFor="let review of university.reviewsList">
-        <div><span>Author: {{review.author}}</span></div>
-        <br>
-        <div><span>{{review.description}}</span></div>
-        <br>
-        <div><span>{{review.date}}</span></div>
+        <ul>
+          <span class="title">Author:  {{review.author}}</span><br>
+          <span>{{review.description}}</span><br>
+          <span>{{review.date}}</span>
+        </ul>
     </li>
   </ul>
 </div>
