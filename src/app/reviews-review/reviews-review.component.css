@@ -5,16 +5,24 @@
     align-items: center;
     transition: 0.3s;
   }
-  .collection-item:hover {
+.collection-item:hover {
     background-color: #ee6e73;
     color: white;
   }
-  
-  .collection{
+
+.collection{
     margin: 3px;
     border: none;
   }
-  
-  .left-side_info{
+
+.left-side_info{
     height: 80vh;
   }
+
+.review{
+  height: auto;
+}
+
+.waves-effect{
+  background-color: #6ecaff;
+}

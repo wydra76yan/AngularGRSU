@@ -20,3 +20,26 @@
 .doc_el:hover{
   transform: scale(1.1);
 }
+
+.doc_list_fir{
+  display: flex;
+  flex-direction: row;
+}
+.doc_list_sec{
+  display: flex;
+  flex-direction: row;
+}
+
+.doc_el{
+  width: 30vh;
+  margin: 10vh;
+}
+
+.row {
+}
+
+.waves-effect{
+  background-color: #ee6e73;
+  width:20%;
+  margin-left: 40%;
+}
